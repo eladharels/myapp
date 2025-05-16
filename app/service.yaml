@@ -5,7 +5,6 @@ metadata:
   labels:
     name: nginx
 spec:
-  type: ClusterIP
     #  externalIPs:
     #  - 10.0.0.200
   ports:
