@@ -9,10 +9,10 @@ spec:
     #  - 10.0.0.200
   ports:
     - port: 80
-      nodePort: 32280
+#      nodePort: 32280
       name: http
     - port: 443
-      nodePort: 32443
+#      nodePort: 32443
       name: https
   selector:
     name: nginx
